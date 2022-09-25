@@ -2,6 +2,8 @@
 
 The Snapshot strategy configuration used by BanklessDAO
 
+It uses a `multichain` top-level strategy which contains multiple sub-strategies.
+
 # Params
 
 ```
