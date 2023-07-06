@@ -58,10 +58,10 @@ It uses a `multichain` top-level strategy which contains multiple sub-strategies
     {
       "name": "staked-balancer",
       "params": {
-        "symbol": "BANK",
         "tokenAddress": "0xdb7cb471dd0b49b29cab4a1c14d070f27216a0ab",
         "balancerPoolId": "0x5a6ae1fd70d04ba4a279fc219dfabc53825cb01d00020000000000000000020e",
-        "stakingContract": "0xc48c3a19bc79b9d6ac4391723041584114a4272d"
+        "stakingContract": "0xc48c3a19bc79b9d6ac4391723041584114a4272d",
+        "symbol": "BANK"
       },
       "network": 137
     },
@@ -99,17 +99,17 @@ It uses a `multichain` top-level strategy which contains multiple sub-strategies
       "params": {
         "symbol": "BANK",
         "decimals": 18,
-        "poolAddress": "0x472D0B0DDFE0BC02C27928b8BcbD67E65D07d48a",
-        "tokenAddress": "0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198"
+        "tokenAddress": "0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198",
+        "poolAddress": "0x472D0B0DDFE0BC02C27928b8BcbD67E65D07d48a"
       },
       "network": 1
     },
     {
       "name": "rari-fuse",
       "params": {
-        "symbol": "BANK"
+        "symbol": "BANK",
         "token": "0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198",
-        "fToken": "0x250316B3E46600417654b13bEa68b5f64D61E609",
+        "fToken": "0x250316B3E46600417654b13bEa68b5f64D61E609"
       },
       "network": 1
     },
