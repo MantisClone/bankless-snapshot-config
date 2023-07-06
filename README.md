@@ -141,7 +141,7 @@ It uses a `multichain` top-level strategy which contains multiple sub-strategies
           }
         }
       }
-          ],
+  ],
   "startBlocks": {
     "137": 13000000
   }
