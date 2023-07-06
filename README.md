@@ -113,7 +113,7 @@ It uses a `multichain` top-level strategy which contains multiple sub-strategies
       },
       "network": 1
     },
-{
+    {
       "name": "contract-call",
       "network": "1",
       "params": {
@@ -138,9 +138,9 @@ It uses a `multichain` top-level strategy which contains multiple sub-strategies
             }
           ],
           "stateMutability": "view"
+          }
         }
       }
-    }
           ],
   "startBlocks": {
     "137": 13000000
