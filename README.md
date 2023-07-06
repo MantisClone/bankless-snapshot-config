@@ -107,9 +107,9 @@ It uses a `multichain` top-level strategy which contains multiple sub-strategies
     {
       "name": "rari-fuse",
       "params": {
+        "symbol": "BANK"
         "token": "0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198",
         "fToken": "0x250316B3E46600417654b13bEa68b5f64D61E609",
-        "symbol": "BANK"
       },
       "network": 1
     },
